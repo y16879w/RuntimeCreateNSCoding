@@ -13,6 +13,7 @@
 		D5F8379821D89C2200B78F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F8379721D89C2200B78F8C /* Assets.xcassets */; };
 		D5F8379B21D89C2200B78F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F8379921D89C2200B78F8C /* LaunchScreen.storyboard */; };
 		D5F8379E21D89C2200B78F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F8379D21D89C2200B78F8C /* main.m */; };
+		D5F837A621D89CAB00B78F8C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F837A521D89CAB00B78F8C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D5F8379A21D89C2200B78F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5F8379C21D89C2200B78F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5F8379D21D89C2200B78F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5F837A421D89CAB00B78F8C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D5F837A521D89CAB00B78F8C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				D5F8379921D89C2200B78F8C /* LaunchScreen.storyboard */,
 				D5F8379C21D89C2200B78F8C /* Info.plist */,
 				D5F8379D21D89C2200B78F8C /* main.m */,
+				D5F837A421D89CAB00B78F8C /* Person.h */,
+				D5F837A521D89CAB00B78F8C /* Person.m */,
 			);
 			path = RuntimeNSCoding;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				D5F8379321D89C2000B78F8C /* ViewController.m in Sources */,
 				D5F8379E21D89C2200B78F8C /* main.m in Sources */,
+				D5F837A621D89CAB00B78F8C /* Person.m in Sources */,
 				D5F8379021D89C2000B78F8C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
